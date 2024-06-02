@@ -1,0 +1,67 @@
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68vh;
+  background-color: #074933;
+  margin-top: -80px;
+}
+
+.login-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.login h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.login-fields{
+  margin-right: 20px;
+}
+
+.login-fields input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-fields input::placeholder {
+  color: #797676;
+}
+
+.login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-login {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-login span {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.login-agree {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login-agree input[type="checkbox"] {
+  margin-right: 10px;
+}

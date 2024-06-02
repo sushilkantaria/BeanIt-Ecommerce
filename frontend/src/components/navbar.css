@@ -1,0 +1,258 @@
+.navstyle{
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Additional styling for specific elements if needed */
+.nav-item,
+.dropbtn,
+.dropdown-content a,
+.nav-login-cart button {
+  font-family: Arial, sans-serif; /* You can specify font-family for specific elements */
+}
+
+.nav1 {
+    background-color: #111;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.logo-container {
+    background-color: #111;
+    align-items: center;
+    padding: 0px;
+
+}
+
+.logo-container img {
+    width: 100px; /* Reduced size */
+    height: 100px; /* Reduced size */
+    border-radius: 50%;
+    background-color: #111;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Set background to white */
+    color: #000; /* Set text color to black */
+    padding: 9px;
+    height: 60px;
+    box-shadow: 0 1px 3px -2px black;
+  }
+
+/* Add specific styling for the "All" button */
+.all-button {
+  font-weight: 500;
+  font-size: 1.10rem;
+  background-color: transparent;
+  color: #000; /* Set text color to black */
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px; /* Add padding to create button-like appearance */
+  border-radius: 20px;
+  transition: background-color 0.3s ease, color 0.3s ease;/* Add transition for text color */
+  text-decoration: none; /* Remove underline */
+}
+
+.all-button {
+  text-decoration: none; /* Remove underline */
+  color: #000; /* Set text color to black by default */
+}
+
+.all-button:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: #fff; /* Set text color to white on hover */
+}
+
+.all-button.active {
+  background-color: #074933; /* Change background color to highlight color */
+  color: #fff; /* Set text color to white */
+}
+
+.all-button.active:hover {
+  background-color: #074933; /* Change background color to highlight color on hover */
+}
+
+
+
+  
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    font-weight: 500;
+    font-size: 1.10rem;
+    background-color: transparent;
+    color: #000; /* Set text color to black */
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px; /* Add padding to create button-like appearance */
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;/* Add transition for text color */
+  }
+
+  .dropbtn:hover,
+.dropdown:hover .dropbtn {
+  background-color: #074933; /* Change background color on hover to highlight color */
+  color: #fff; /* Change text color on hover to white */
+}
+
+/* Add the following styles for the "All" button */
+.dropbtn.active {
+  background-color: #074933;
+  color: #fff;
+}
+
+/* Add the following styles for the "All" button when hovered */
+.dropbtn:hover.active {
+  background-color: #074933;
+  color: #fff;
+}
+
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: calc(100% + 1px); /* Position the dropdown content below the dropdown button */
+    left: 0; /* Align the left edge with the dropdown button */
+    background-color: #fff; /* Set background to white */
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5); /* Add box shadow */
+    min-width: 160px;
+    z-index: 1;
+    border-radius: 10px; /* Add border-radius for curved corners */
+  }
+  
+  .dropdown-content a {
+    color: #000; /* Set text color to black */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background color and text color */
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #39231a; /* Light gray background on hover */
+    color: #f2f2f2;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Reduce the gap between items */
+    margin-right: 20px; /* Adjust margin for smaller screens */
+  }
+
+
+.nav-login-cart button{
+    width: 130px;
+    height: 45px;
+    outline: none;
+    border: 2px solid #111111;
+    border-radius: 75px;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    background: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Add transition for smooth color change */
+  
+  }
+
+  .nav-login-cart button {
+    width: 130px;
+    height: 45px;
+    outline: none;
+    border: 2px solid #111111; /* Add border */
+    border-radius: 75px;
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+    background: #f2f2f2;
+    cursor: pointer;
+    transition: background-color 0.5s ease, color 0.5s ease; /* Add transition for smooth color change */
+  }
+  
+  /* Add specific styles for button border when hovered */
+  .nav-login-cart button:hover {
+    background-color: #39231a; /* Change border color on hover */
+    color: #f3f3f3;
+    border-color: #f3f3f3;
+  }
+  
+  /* Add specific styles for button border when active/pressed */
+  .nav-login-cart button:active {
+    border-color: #f3f3f3;
+  }
+  
+
+.nav-cart-count{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -107px;
+    border-radius: 11px;
+    font-size: 15px;
+    background: red;
+    color: white;
+}
+.home{
+    padding-left: 30px;
+}
+
+  
+@media screen and (max-width: 800px) {
+  .navbar {
+    flex-direction: column; /* Change to column layout on smaller screens */
+    height: auto; /* Let the height adjust dynamically based on content */
+  }
+
+  .dropdown {
+    margin-bottom: 10px; /* Add some spacing between dropdowns */
+  }
+
+  .dropdown-content {
+    position: static; /* Remove absolute positioning */
+    display: none; /* Hide dropdown content by default */
+    background-color: transparent; /* Set background to transparent */
+    box-shadow: none; /* Remove box shadow */
+    border-radius: 0; /* Remove border radius */
+    min-width: auto; /* Allow width to adjust based on content */
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block; /* Show dropdown content on hover */
+  }
+
+  .nav-login-cart {
+    justify-content: center; /* Center align login and cart buttons */
+    margin-top: 20px; /* Add some top margin */
+    margin-right: 0; /* Remove right margin */
+  }
+
+  .nav-login-cart button {
+    width: auto; /* Allow button width to adjust based on content */
+    padding: 10px 15px; /* Adjust padding */
+  }
+
+
+  .home {
+    padding: 0px;
+    margin-bottom: 10px; /* Add some bottom margin to home icon */
+  }
+}

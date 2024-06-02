@@ -1,0 +1,267 @@
+.homestyle {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #111;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+.logo-container img {
+    width: 100px; /* Reduced size */
+    height: 100px; /* Reduced size */
+    border-radius: 50%;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    height: 50vh; /* Reduced height */
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+h1 {
+    font-size: 2em; /* Adjusted size */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1em; /* Adjusted size */
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b4e37;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1em; /* Adjusted size */
+}
+
+.btn:hover {
+    background-color: #39231a;
+}
+
+
+
+/* Adjust the size of the video container */
+
+.video-layout {
+    position: relative;
+    width: 100%;
+    height: 81%; /* Adjust the height as needed */
+    margin: 0;
+    padding: 0;
+}
+
+.video-layout video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; /* Ensure the video takes up full width and height */
+    margin-bottom: 0px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Black with 50% opacity */
+}
+
+/* Adjust the size of the hero section */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    height: 100vh; /* Set to full viewport height */
+    text-align: center;
+    position: relative;
+}
+
+
+.info-section {
+    position: relative;
+    display: flex;
+    margin-top: -50px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 0; 
+    background-color: #111; 
+    color: #fff; 
+}
+
+.landscape-image {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 40px; 
+}
+
+.info {
+    flex: 2;
+    margin-bottom: 40px; 
+}
+
+.landscape-image img {
+    width: 100%; /* Set width to fill the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    border-radius: 5px;
+}
+
+
+.info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b4e37;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info .btn:hover {
+    background-color: #39231a;
+}
+
+
+/* landscape-info-section  */
+.landscape-info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; 
+    background-color: #111; 
+    color: #fff;
+}
+
+.landscape-image {
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 10px; 
+    overflow: hidden; 
+}
+
+.landscape-image img {
+    width: 100%;
+    display: block;
+}
+
+.info {
+    flex: 1;
+    text-align: center; 
+    margin-left: 20px;
+}
+
+.info h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6b4e37;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.info .btn:hover {
+    background-color: #39231a;
+}
+
+/* Adjusting the flex order to move the landscape image to the left */
+@media (min-width: 300px) {
+    .landscape-info-section {
+        flex-direction: row-reverse; /* Reverse the flex direction */
+    }
+
+    .landscape-image {
+        order: 2; /* Move the landscape image to the right */
+        margin-right: 0; /* Remove margin-right to avoid extra space */
+        margin-left: 20px; /* Add margin-left to the second image */
+    }
+
+    .info {
+        order: 1; /* Move the info section to the left */
+        text-align: center; /* Center-align the text */
+    }
+}
+
+
+/* Coffee Cards Section */
+.coffee-cards-section {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #074933;
+}
+
+.coffee-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.coffee-card {
+    width: 250px;
+    background-color: #000000;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.coffee-card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.coffee-card:hover {
+    transform: translateY(-5px);
+}

@@ -1,0 +1,70 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #074933;
+}
+
+
+.navbar {
+  /* Add some margin to the bottom of the navbar */
+  margin-bottom: 80px; /* Adjust this value to your preference */
+  margin-top: -20px;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-top: 40px;
+  padding: 0 200px; /* Adjust the padding to create some space on the sides */
+  padding-right: 100px;
+  margin-left: -100px;
+}
+  
+  .product-card {
+    width: calc(30% - 20px); 
+    margin-bottom: 50px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background-color: #ccc;
+  }
+  
+  .product-card:nth-child(3n) {
+    margin-right: 0; /* Remove margin from the last card in each row to prevent overflow */
+  }
+
+  .product-card:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+  
+  .product-name {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center; /* Align the text center */
+   color: #000; /* Set the color to black */
+  font-weight: bold; /* Make the text bold */
+  }
+
+
+  .product-link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .product-price {
+    margin-top: 5px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+

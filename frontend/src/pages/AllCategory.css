@@ -1,0 +1,52 @@
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin-top: 40px;
+  padding: 0 200px; /* Adjust the padding to create some space on the sides */
+  padding-right: 100px;
+  margin-left: -100px;
+}
+
+.category-card {
+  width: calc(30% - 20px); /* Adjust the width to accommodate three products per row */
+  margin-bottom: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  list-style: none; /* Remove bullets */
+  background-color: #ccc;
+}
+
+.category-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.category-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.category-name {
+  margin-top: 10px;
+  font-size: 16px;
+  text-align: center; /* Align the text center */
+  color: #000; /* Set the color to black */
+  font-weight: bold; /* Make the text bold */
+  text-decoration: none;
+   color: inherit;
+}
+
+.category-product{
+  text-decoration: none;
+  color: inherit;
+}
+.category-price {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+

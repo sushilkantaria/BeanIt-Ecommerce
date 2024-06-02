@@ -1,0 +1,138 @@
+.inplaceofBody{
+    padding: 0;
+    margin: 0;
+    margin-top: -80px;
+    box-sizing: border-box;
+    background-color: white;
+    padding-top: 10px;
+}
+
+/* terms section */
+.para-class{
+    margin-top: 15px;    
+    padding: 15px 150px 0 150px;
+}
+
+.beginning-2paras {
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 1.25em;
+    line-height: 1.80rem;
+} 
+
+.terms-of-use-heading {
+    margin-top: 55px;
+    font-size: 2.75em;
+    font-weight: 600;
+    padding-inline-start: 150px;
+}
+
+.terms-of-use-headings {
+    margin-top: 15px;
+    font-size: 1.95em;
+    font-weight: 500;
+    padding-inline-start: 150px;
+}
+
+.sub-headings{
+    margin-top: 20px;
+    font-size: 1.35em;
+    font-weight: 500;
+    padding-inline-start: 150px;
+}
+
+.coffee-comes-from-class {
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 1.25em;
+    line-height: 1.80rem;
+    /* background-color: rgb(255, 252, 252); */
+    padding-inline: 150px;
+    font-weight: 400;
+}
+
+.info-class {
+    margin-top: 15px;
+    padding-inline-start: 200px;
+    padding-inline-end: 120px;
+}
+
+.info-class li {
+    margin-bottom: 6px;
+    margin-right: 20px; 
+    font-size: 1.25em;
+    line-height: 1.80rem;
+}
+
+.sub-info {
+    margin-bottom: 6px;
+    margin-top: 15px;
+    padding-inline-start: 200px;
+    padding-inline-end: 120px;
+    font-size: 1.25em;
+    line-height: 1.80rem;
+}
+
+
+/* for back and home buttons */
+.forbuttons {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forbuttons button {
+    margin: 0 10px; 
+}
+
+.button {
+    height: 45px;
+    width: 80px;
+    background-color: #6b4e37; /* Dark brown */
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Make it look clickable */
+    font-size: 1rem;
+    /* font-weight: 600; */
+}
+  
+.button:hover {
+    background-color: #39231a; /* Darker brown on hover */
+}
+  
+/* for scroll up button */
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.scroll-to-top button {
+    /* background: transparent; */
+    background-color: white;
+    /* color: white; */
+    color: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: fixed;
+    bottom: 70px;
+    right: 80px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+.scroll-to-top button img {
+    width: 40px;
+    height: 40px;
+}
+
