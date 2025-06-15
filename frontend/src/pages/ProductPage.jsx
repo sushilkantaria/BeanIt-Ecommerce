@@ -11,7 +11,7 @@ const ProductPage = () => {
   const { productId } = useParams();
 
   useEffect(() => {
-    fetch('http://localhost:4000/allproducts')
+    fetch('https://beanit-ecommerce-backend.onrender.com/allproducts')
       .then((response) => response.json())
       .then((data) => {
         setAllProducts(data);
