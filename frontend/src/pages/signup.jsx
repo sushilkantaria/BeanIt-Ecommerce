@@ -23,7 +23,7 @@ const Signup=() =>{
         }
         console.log("Signup Function Executed",  formData);
         let responseData;
-        await fetch('http://localhost:4000/signup', {
+        await fetch('https://beanit-ecommerce-backend.onrender.com/signup', {
             method:'POST',
             headers:{
                 Accept:'application/form-data',
