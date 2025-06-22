@@ -16,7 +16,6 @@ A fully functional and visually appealing eCommerce website for BEAN IT – a pr
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [License](#license)
 - [Contact](#contact)
 
 ---
@@ -115,11 +114,6 @@ npm start
 cd ../admin-panel
 npm install
 npm start
-
----
-
-📄 License
-This project is licensed under the MIT License.
 
 ---
 
